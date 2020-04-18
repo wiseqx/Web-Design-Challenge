@@ -25,7 +25,7 @@ body{
 }
 
   
-@media(max-width: 767.98px){
+@media(max-width: 767px){
     .navbar{
         background-color: rgb(21, 182, 166);
         color: rgb(23, 95, 95);
@@ -156,7 +156,7 @@ p{
     border: 1px solid rgb(21, 182, 166);
 }
 
-@media(max-width: 767.98px){
+@media(max-width: 767px){
     .main-box{
         margin-bottom: 2%;
     }
@@ -270,7 +270,7 @@ th, td{
     font-size: 100%;
 }
 
-@media(max-width: 767.98px) {
+@media(max-width: 767px) {
     table{
         margin:0 0 0 0;
         overflow-x: scroll;
