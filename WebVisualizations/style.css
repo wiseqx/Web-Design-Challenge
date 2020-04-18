@@ -14,7 +14,7 @@ body{
     padding: 10px;
     background-color: rgb(21, 182, 166);
     color: white;
-    font-size: 200%;
+    font-size: 180%;
     text-align: center;
     font-family: "Book Antiqua","Time New Roman";
 }
@@ -46,62 +46,60 @@ body{
 }
 
 h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 2%;
     color: rgb(21, 182, 166);
-    font-size: 200%;
+    font-size: 180%;
     font-family: "Book Antiqua","Time New Roman";
 }
 
 h2{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 1%;
     color: rgb(21, 182, 166);
     font-size: 150%;
     font-family: "Book Antiqua","Time New Roman";
 }
 
 .main-box{
-    padding: 20px;
+    padding: 2%;
     background: white;
-    margin-top: 8%;
-    margin-bottom: 13%;
-    margin-right: 5px;
+    margin-top: 7%;
+    margin-bottom: 11%;
+    margin-right: 1%;
     align-content: center;
-    position: relative;
+
 }
 
 p{
     color:rgb(73, 97, 105);
-    font-size: 130%;
     padding: 10px;
+    font-size: 110%;
     margin: 20px 20px 10px 10px;  
 }
 
 #main-img{
-    margin-top:20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
     float: left;
     width: 180px;
-    height:200px;
+    height: 200px;
 }
 
 .side-box{
     background-color: white;
-    padding: 10px 10px 10px 10px;
-    margin-top: 17%;
+    padding: 5% 2% 2% 3%;
+    margin-top: 15%;
     margin-bottom: 10%;
     align-content: center;
 }
 
 .side-bar{
     position: relative;
-    height: 380px;
-    width: 350px;
     align-content: center;
 }
 
@@ -248,7 +246,7 @@ p{
 
 .row a img{
     height: 80%;
-    width: 95%;
+    width: 96%;
     border: 1px solid white;
 }
 
