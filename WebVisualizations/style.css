@@ -14,31 +14,26 @@ body{
     padding: 10px;
     background-color: rgb(21, 182, 166);
     color: white;
-    font-size: xx-large;
-    text-align:center;
+    font-size: 200%;
+    text-align: center;
     font-family: "Book Antiqua","Time New Roman";
 }
 
 
 .nav-item .nav-link:focus{
     background-color: rgb(214, 211, 211); 
-  }
+}
 
-
-@media(max-width: 768px){
+  
+@media(max-width: 576px){
     .navbar{
         background-color: rgb(21, 182, 166);
-        color: darkslategrey;
+        color: rgb(23, 95, 95);
     }
     
     .navbar .navbar-brand{
         margin-left: 5%;
         margin-bottom: 0px;
-        background-color: rgb(21, 182, 166);
-        color: white;
-        font-size: xx-large;
-        text-align: center;
-        font-family: "Book Antiqua","Time New Roman";
     }
 
     .nav-item .nav-link:focus{
@@ -53,9 +48,9 @@ body{
 h1{
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left:20px;
+    padding-left: 20px;
     color: rgb(21, 182, 166);
-    font-size: 40px;
+    font-size: 200%;
     font-family: "Book Antiqua","Time New Roman";
 }
 
@@ -64,16 +59,15 @@ h2{
     padding-bottom: 20px;
     padding-left: 10px;
     color: rgb(21, 182, 166);
-    font-size: 30px;
+    font-size: 150%;
     font-family: "Book Antiqua","Time New Roman";
 }
 
 .main-box{
     padding: 20px;
     background: white;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    margin-left: 5px;
+    margin-top: 8%;
+    margin-bottom: 13%;
     margin-right: 5px;
     align-content: center;
     position: relative;
@@ -81,7 +75,7 @@ h2{
 
 p{
     color:rgb(73, 97, 105);
-    font-size: 20px;
+    font-size: 130%;
     padding: 10px;
     margin: 20px 20px 10px 10px;  
 }
@@ -97,15 +91,11 @@ p{
 }
 
 .side-box{
-    background: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-    margin-left: 0px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 17%;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     align-content: center;
     position: relative;
 }
@@ -116,6 +106,7 @@ p{
     width: 350px;
     align-content: center;
 }
+
 
 #Temp-img{
     position: left;
@@ -169,11 +160,32 @@ p{
     border: 1px solid rgb(21, 182, 166);
 }
 
-@media(max-width: 995px){
-    .sidebar{
-    position: relative;
-    height: 145px;
-    width: auto;
+@media(max-width: 576px){
+    .main-box{
+        margin-bottom: 2%;
+    }
+
+    p{
+        font-size: 90%;
+        padding-top: 3%;
+        margin: 3% 3% 1% 1%;  
+    }
+
+    #main-img{
+        float: left;
+        width: 40%;
+        height: 80%;
+    }
+
+    .side-box{
+        margin-top: 2%;
+        margin-bottom: 14%;
+    }
+
+    .side-bar{
+        position: relative;
+        height: 180px;
+        width: auto;
     }
 
     #Temp-img{
@@ -182,18 +194,22 @@ p{
         width: 25%;
         border: 1px solid white;
     }
+
     #Temp-img:hover{
         border: 1px solid rgb(21, 182, 166);
     }
+
     #Hmd-img{
         float: left;
         position: relative;
         width: 25%;
         border: 1px solid white;
     }
+
     #Hmd-img:hover{
         border: 1px solid rgb(21, 182, 166);
     }
+
     #Cld-img{
         float: left;
         position: relative;
@@ -209,10 +225,12 @@ p{
         width: 25%;
         border: 1px solid white;
     }
+
     #WS-img:hover{
         border: 1px solid rgb(21, 182, 166);
     }
 }
+
 
 /*footer*/
 .bottom-footer{
@@ -224,7 +242,8 @@ p{
     background-color: rgb(99, 96, 96);
 }
 
-/*comparision design*/
+
+/*comparision page design*/
 .subtitle{
     text-align: center;
 }
@@ -236,27 +255,37 @@ p{
 }
 
 .paragraph{
+    font-size: 120%;
     color: black;
 }
 
 
 
-/*TABLE*/
-
+/*Data page design*/
+/*Table design*/
 table{
-    margin-top: 60px;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%; 
     border-collapse: collapse;
-    border: 0;
 }
 
 th, td{
-    font-size: larger;
-    border: 0;
+    font-size: 100%;
 }
 
-@media(max-width: 760px) {
+@media(max-width: 576px) {
     table{
+        margin:0 0 0 0;
         overflow-x: scroll;
         display: block;
+    }
+
+    th, td{
+        font-size: 50%;
+    }
+
+    .paragraph{
+        font-size: 90%;
     }
 }
